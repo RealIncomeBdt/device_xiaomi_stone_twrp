@@ -5,14 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Base product (64-bit)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-
-# TWRP common configuration
-$(call inherit-product, vendor/twrp/config/common.mk)
-
-# Device configuration
-$(call inherit-product, device/xiaomi/stone/device.mk)
+$(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 PRODUCT_DEVICE := stone
 PRODUCT_NAME := twrp_stone
