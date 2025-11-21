@@ -16,7 +16,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/xiaomi/stone/device.mk)
 
 PRODUCT_DEVICE := stone
-PRODUCT_NAME := omni_stone
+PRODUCT_NAME := twrp_stone
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 12 5G
 PRODUCT_MANUFACTURER := xiaomi
