@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_stone.mk
+    $(LOCAL_DIR)/twrp_stone.mk
 
 COMMON_LUNCH_CHOICES := \
     twrp_stone-user \
