@@ -9,6 +9,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_stone.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_stone-user \
-    omni_stone-userdebug \
-    omni_stone-eng
+    twrp_stone-user \
+    twrp_stone-userdebug \
+    twrp_stone-eng
