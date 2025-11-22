@@ -1,4 +1,12 @@
-$(call inherit-product, $(DEVICE_PATH)/device.mk)
+# Base product configuration (most specific first)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+
+# TWRP common config
+$(call inherit-product, vendor/twrp/config/common.mk)
+
+# Device configuration
+$(call inherit-product, $(DEVICE_PATH)device.mk)
 
 PRODUCT_DEVICE := stone
 PRODUCT_NAME := twrp_stone
